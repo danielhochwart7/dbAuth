@@ -1,0 +1,32 @@
+{
+  "name": "db_auth",
+  "version": "1.0.0",
+  "description": "Example of NodeJS app using PassportJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhochwart7/dbAuth.git"
+  },
+  "keywords": [
+    "passportjs",
+    "authentication",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Hochwart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielhochwart7/dbAuth/issues"
+  },
+  "homepage": "https://github.com/danielhochwart7/dbAuth#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
